@@ -4,7 +4,7 @@ errors to cli.py if needed, otherwise it returns the corresponding
 answer to cli.py
 """
 
-from sympy import sin, cos, tan, log, pi, sympify, integrate, E, sqrt, symbols, I, Integral, Expr
+from sympy import sympify, integrate, E, symbols, I, Integral, Expr
 from sympy.core.numbers import ComplexInfinity, NaN
 from sympy.core.sympify import SympifyError
 from re import match
